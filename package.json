@@ -1,0 +1,16 @@
+{
+  "name": "postman-newman-jenkeinskam",
+  "version": "1.0.0",
+  "description": "project for storing postman",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "api-tests-production": "newman run tests/MyProject.postman_collection.json"
+  },
+  "author": "kamlesh",
+  "dependencies": {
+    "newman": "^5.1.0"
+  }
+}
