@@ -105,9 +105,7 @@
 							"pm.test(\"Content-Type is present\", function () {\r",
 							"    pm.response.to.have.header(\"Content-Type\");\r",
 							"});\r",
-							"pm.test(\"Response time is less than 200ms\", function () {\r",
-							"    pm.expect(pm.response.responseTime).to.be.below(200);\r",
-							"});\r",
+							
 							"pm.test(\"Status code name has string\", function () {\r",
 							"    pm.response.to.have.status(\"OK\");\r",
 							"});\r",
@@ -178,9 +176,7 @@
 					"script": {
 						"id": "3ec78bcc-b479-472b-b33e-e4b3c68d66b2",
 						"exec": [
-							"pm.test(\"Status code is 200\", function () {\r",
-							"    pm.response.to.have.status(200);\r",
-							"});\r",
+							
 							"pm.test(\"status code is OK\",function(){\r",
 							"    pm.response.to.have.status(\"OK\")\r",
 							"})\r",
