@@ -26,9 +26,7 @@
 							"pm.test(\"Content-Type is present\", function () {\r",
 							"    pm.response.to.have.header(\"Content-Type\");\r",
 							"});\r",
-							"pm.test(\"Response time is less than 600ms\", function () {\r",
-							"    pm.expect(pm.response.responseTime).to.be.below(600);\r",
-							"});\r",
+							
 							"pm.test(\"Status code name has string\", function () {\r",
 							"    pm.response.to.have.status(\"OK\");\r",
 							"});\r",
