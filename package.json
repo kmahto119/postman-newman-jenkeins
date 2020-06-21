@@ -7,7 +7,7 @@
     "test": "tests"
   },
   "scripts": {
-    "api-tests-production": "newman run tests/MyProject.postman_collection.json"
+    "api-tests-production": "newman run tests/MyProject.postman_collection.json --reporters cli,junit --reporter-junit-export newwman.xml"
   },
   "author": "kamlesh",
   "dependencies": {
